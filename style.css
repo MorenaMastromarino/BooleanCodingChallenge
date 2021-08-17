@@ -1,0 +1,61 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+.conteiner{
+  width: 700px;
+  margin: auto;
+  border-radius: 10px;
+  padding: 60px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.logo{
+  width: 200px;
+  height: 90px;
+}
+
+.logo-text{
+  color: lime;
+}
+
+header{
+  text-align: center;
+}
+
+nav{
+  text-align: center;
+  background-color: lime;
+  padding: 10px;
+}
+
+.monopattino{
+  padding: 15px;
+}
+
+.name{
+  display: inline-block;
+  font-size: 20px;
+}
+
+.charge-line{
+  height: 20px;
+  border-radius: 5px;
+}
+
+.charge-line.Gino{
+  background-color: orange;
+  width: 40%;
+}
+
+.charge-line.Mike{
+  background-color: green;
+  width: 75%;
+}
+
+.charge-line.Fede{
+  background-color: red;
+  width: 20%;
+}
